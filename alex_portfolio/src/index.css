@@ -12,6 +12,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Personal Logo */
+
+.titleImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.StoryP1, .StoryP2, .StoryP3 {
+  text-align: center;
+  Color: #3f4866;
+  
+}
 
 /* Project Card Styling */
 .g-card {
