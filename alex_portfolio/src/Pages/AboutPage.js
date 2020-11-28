@@ -37,7 +37,7 @@ function AboutPage(props) {
             
             </p>
             <p className ="StoryP3">
-                I'm a laid back kind of person- who enjoys having a houseful of friends over just as much as being quarantined at home during this Pandemic. I live with my fiance and our two polar-opposite dogs; one of which has one eye and is alpaca-soft and the other is a couch potato herding pup. I keep LaCroix in business and prefer Costco over Sam's Club hands down
+                I'm a laid back kind of person- who enjoys having a houseful of friends over just as much as being quarantined at home during this Pandemic. I live with my fiance and our two polar-opposite dogs; one of which has one eye and is alpaca-soft and the other is a couch potato herding pup. I keep LaCroix in business and prefer Costco over Sam's Club hands down.
             </p>
             </Content>
             <Row>
@@ -51,14 +51,13 @@ function AboutPage(props) {
                     src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/HTML5.png?raw=true"
                     height="100px"
                     width="50px"
-                    title="Alex Skudrovskis logo"
-                    alt="personal logo" 
+                    title="HTML5"
+                    alt="HTML5 Logo" 
                 />
                 <Card.Body>
                     <Card.Title>HTML</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    <Card.Text className="HTML">
+                        95%
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -70,14 +69,13 @@ function AboutPage(props) {
                     src="https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/CSS3.png?raw=true"
                     height="100px"
                     width="50px"
-                    title="Alex Skudrovskis logo"
-                    alt="personal logo" 
+                    title="CSS3"
+                    alt="CSS3 Logo" 
                 />
                 <Card.Body>
                     <Card.Title>CSS</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    <Card.Text className="CSS">
+                        90%
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -89,14 +87,13 @@ function AboutPage(props) {
                     src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/JavaScript.png?raw=true"
                     height="100px"
                     width="50px"
-                    title="Alex Skudrovskis logo"
-                    alt="personal logo" 
+                    title="JavaScript"
+                    alt="Javascript Logo" 
                 />
                 <Card.Body>
                     <Card.Title>JavaScript</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    <Card.Text className="JS">
+                        75%
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>

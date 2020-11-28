@@ -89,3 +89,27 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+
+
+/* Skills Cards */
+
+.card-title.h5 {
+  color:#79aab2;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.JS {
+  text-align: center;
+  color: #e1e12d
+}
+
+.HTML, .CSS {
+  text-align: center;
+  color: #55B54C
+}
+
+
+
+
+
