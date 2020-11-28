@@ -48,7 +48,7 @@ class Carousel extends React.Component {
                  {
                     id: 3,
                     title: 'Template Engine',
-                    subTitle: '',
+                    subTitle: 'Comand Line Interface that generates a new ReadMe.md',
                     imgSrc: TemplateEngine,
                     link: 'https://github.com/alsricha/wk10-Template-Engine',
                     selected: false
