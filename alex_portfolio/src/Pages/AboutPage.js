@@ -47,42 +47,60 @@ function AboutPage(props) {
             </Row>
             <CardGroup>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <img className="titleImg"
+                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/alexlogo.png?raw=true"
+                    height="100px"
+                    width="50px"
+                    title="Alex Skudrovskis logo"
+                    alt="personal logo" 
+                />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>HTML</Card.Title>
                     <Card.Text>
                         This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">Last updated November 2020</small>
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <img className="titleImg"
+                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/alexlogo.png?raw=true"
+                    height="100px"
+                    width="50px"
+                    title="Alex Skudrovskis logo"
+                    alt="personal logo" 
+                />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>CSS</Card.Title>
                     <Card.Text>
                         This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small className="text-muted">Last updated August 2020</small>
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <img className="titleImg"
+                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/alexlogo.png?raw=true"
+                    height="100px"
+                    width="50px"
+                    title="Alex Skudrovskis logo"
+                    alt="personal logo" 
+                />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>JavaScript</Card.Title>
                     <Card.Text>
                         This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">Last updated November 2020</small>
                 </Card.Footer>
             </Card>
             
