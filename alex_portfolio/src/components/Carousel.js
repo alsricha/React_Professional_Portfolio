@@ -2,6 +2,7 @@ import React from 'react';
 
 import Card from '../components/Card';
 
+
 import studybuddy from '../assets/images/studybuddy.png';
 import quiz from '../assets/images/quiz.png';
 import employeetracker from '../assets/images/employeetracker.png';
@@ -9,8 +10,10 @@ import eventsmash from '../assets/images/EventSmash.png';
 import Burger from '../assets/images/burger.png';
 import weatherdashboard from '../assets/images/weatherdashboard.png';
 import TemplateEngine from '../assets/images/templateengine.png';
+import ComingSoon from '../assets/images/comingsoon.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+
 
 class Carousel extends React.Component {
 
@@ -42,7 +45,7 @@ class Carousel extends React.Component {
                     link: 'https://github.com/alsricha/Code-Quiz',
                     selected: false
                 },
-                {
+                 {
                     id: 3,
                     title: 'Template Engine',
                     subTitle: '',
@@ -50,7 +53,7 @@ class Carousel extends React.Component {
                     link: 'https://github.com/alsricha/wk10-Template-Engine',
                     selected: false
                 },
-                {
+                 {
                     id: 4,
                     title: 'Weather Dashboard',
                     subTitle: 'Daily Weather Application',
@@ -73,10 +76,27 @@ class Carousel extends React.Component {
                     imgSrc: Burger,
                     link: 'https://github.com/alsricha/Burger',
                     selected: false
-                },
+                },  
+                {
+                    id: 7,
+                    title: 'Coming soon',
+                    subTitle: 'Upcoming project under development',
+                    imgSrc: ComingSoon,
+                    /* link: '#' */
+                    selected: false
+                },  
+                {
+                    id: 8,
+                    title: 'Coming soon',
+                    subTitle: 'Upcoming project under development',
+                    imgSrc: ComingSoon,
+                    /* link: '#' */
+                    selected: false
+                },  
             ]
         }
     }
+    
 
 
     handleCardClick = (id, card) => {
@@ -106,10 +126,12 @@ class Carousel extends React.Component {
 
     render() {
         return(
-            <Container fluid={true}>
+            <Container fluid={false}>
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
                 </Row>
+
+                
             </Container>
         );
     }
