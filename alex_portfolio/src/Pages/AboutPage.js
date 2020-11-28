@@ -48,7 +48,7 @@ function AboutPage(props) {
             <CardGroup>
             <Card>
                 <img className="titleImg"
-                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/alexlogo.png?raw=true"
+                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/HTML5.png?raw=true"
                     height="100px"
                     width="50px"
                     title="Alex Skudrovskis logo"
@@ -67,7 +67,7 @@ function AboutPage(props) {
             </Card>
             <Card>
                 <img className="titleImg"
-                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/alexlogo.png?raw=true"
+                    src="https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/CSS3.png?raw=true"
                     height="100px"
                     width="50px"
                     title="Alex Skudrovskis logo"
@@ -86,7 +86,7 @@ function AboutPage(props) {
             </Card>
             <Card>
                 <img className="titleImg"
-                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/alexlogo.png?raw=true"
+                    src=" https://github.com/alsricha/React_Professional_Portfolio/blob/main/alex_portfolio/src/assets/images/JavaScript.png?raw=true"
                     height="100px"
                     width="50px"
                     title="Alex Skudrovskis logo"
