@@ -1,10 +1,9 @@
 import React from 'react';
 import Content from '../components/Content';
-import Skills from '../components/Skills';
-
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 function AboutPage(props) {
 
@@ -41,6 +40,53 @@ function AboutPage(props) {
                 I'm a laid back kind of person- who enjoys having a houseful of friends over just as much as being quarantined at home during this Pandemic. I live with my fiance and our two polar-opposite dogs; one of which has one eye and is alpaca-soft and the other is a couch potato herding pup. I keep LaCroix in business and prefer Costco over Sam's Club hands down
             </p>
             </Content>
+            <Row>
+                <h1 className ="title">
+                    Skills
+                </h1>
+            </Row>
+            <CardGroup>
+            <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Footer>
+            </Card>
+            <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Footer>
+            </Card>
+            <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Footer>
+            </Card>
+            
+            </CardGroup>
             </Container>
         </div>
     );
