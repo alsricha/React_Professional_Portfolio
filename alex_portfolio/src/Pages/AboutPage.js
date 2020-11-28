@@ -7,7 +7,7 @@ function AboutPage(props) {
     return(
         <div>
             <MainTitle title={props.title} />
-
+            <img src=" imgSrc={props.Logo}" />
             <Content>
 
             <p>

@@ -8,10 +8,6 @@ body {
   
 }
 
-html {
-  
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -20,6 +16,7 @@ code {
 /* Project Card Styling */
 .g-card {
   margin: 20px;
+  
 }
 
 
@@ -30,6 +27,7 @@ code {
   background-color:#b5cbd6;
   border-radius: 40px;
   padding-bottom: 10px;
+  
 }
 
 

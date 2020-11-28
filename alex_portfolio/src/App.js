@@ -10,6 +10,8 @@ import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import ContactPage from './Pages/ContactPage';
 
+import Logo from './assets/images/alexlogo.png';
+
 
 class App extends React.Component {
   
@@ -28,7 +30,8 @@ class App extends React.Component {
         text: 'Checkout my projects below'
       },
       about: {
-        title: 'My Story'
+        title: 'My Story',
+        imgSrc: Logo,
       },
       contact: {
         title: 'Let\'s Connect'
